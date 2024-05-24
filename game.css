@@ -1,0 +1,106 @@
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+#title {
+    font-size: 40px;
+}
+
+#gameMessage, #turnMessage, #notice {
+    margin-top: 20px;
+    position: relative;
+    height: 150px;
+    width: 300px;
+}
+
+#table {
+    margin-left: 125px;
+    margin-top: 50px;
+ }
+
+td {
+    border: 2px solid #ccc;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+td:hover {
+    background-color: #ddd;
+}
+
+#main {
+   position: absolute;   
+   top: 50%;   
+   left: 50%;   
+   transform: translate(-50%, -50%); 
+   height: 800px;
+   width: 1400px;
+}
+
+#left, #right {
+    width: 200px;
+    float: left;
+    margin-top: 20px;
+}
+
+img {
+   width: 2.5em; 
+   height: em; 
+   margin: 0em;
+   vertical-align: middle;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    width: 100px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    border-radius: 60%;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.disabled {
+   opacity: 0.6;
+   cursor: not-allowed;
+}
+
+#settingButtonDiv {
+   margin-top: 10px;
+}
+
+#inputValue {
+    position: absolute;
+    background: transparent;
+    padding: 15px;
+    border: 2px solid #ccc;
+    color: black;
+    font-size: 20px;
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+#userButton {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+#computerButtonDiv {
+    /* margin-left: 550px; */
+    margin-top: 60px;
+ }
