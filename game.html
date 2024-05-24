@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Spaceship Game</title>
+        <link rel="stylesheet" type="text/css" href="game.css">
+        <script src="game.js"></script>
+        <script>
+        </script>
+    </head>
+    <body>
+        <div id="main">
+                <div id="title">The Spaceship Game</div>
+                <div id="left">
+                    <div style="margin-left: 20px;margin-top: 50px; position: absolute;">
+                        <img src="img/SHIP.png"  alt="user spaceship" />User Spaceship<br>
+                        <img src="img/ROB.png"  alt="robotic spaceship" />Robotic Spaceship<br>
+                        <img src="img/STAR.png"  alt="asteroid" />Asteroid<br>
+                        <img src="img/actMine.png"  alt="active mine" />Active Mine<br>
+                        <img src="img/MINE.png"  alt="mine" />Mine<br>
+                    </div>
+
+                </div>
+                <div style="width: 800px; height: 800px; float:left;">
+                        <div style="width: 800px; height: 650px;float:left;">
+                                <table id="table"></table>
+                        </div>
+                        <div id="userInput"  style="position: relative;width: 800px;height: 150px; float:left;" hidden>
+                                <input type="text" id="inputValue">
+                                <button type="button" id="userButton" >User Move</button>
+                        </div> 
+
+                </div> 
+                <div id="right">
+                    <div id="gameMessage" ></div>
+                    <div id="turnMessage"></div>
+                    <div id="notice"></div>
+                    <div  id="settingButtonDiv">
+                        <button type="button" id="settingButton">Finish Setting</button>
+                    </div>
+                    <div id="computerButtonDiv">
+                        <button type="button" id="computerButton" hidden>Computer Move</button>
+                    </div>
+                </div> 
+        </div>
+        <script>
+            gameInit()
+        </script>
+    </body>
+</html>
